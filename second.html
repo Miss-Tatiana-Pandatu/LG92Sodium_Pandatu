@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3/7/2024</title>
+    <style>
+        #img{
+            position: fixed; left: 430px;
+            border-radius: 20px;
+            border: 5px solid black;
+            width: 30vw;
+            height: 50vh;
+        }
+
+        button{
+            position: relative; left: 470px; top: 370px;
+            width: 12vw;
+            height: 10vh;
+        }
+
+        h1{
+            position: relative; left: 440px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Effects of Mewing in Cats</h1>
+    <img id="img" src="media/cat that is not mewing.jpg" alt="#">
+     <button onclick="original()">Before Mewing</button>
+     <button onclick="unoriginal()">After Mewing</button>
+
+    <script>
+
+        function original(){
+            img.src= 'media/cat that is not mewing.jpg';
+        }
+
+        function unoriginal(){
+            img.src='media/mewing cat.jpg';
+        }
+
+
+    </script>
+</body>
+</html>
